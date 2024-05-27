@@ -5,12 +5,20 @@ import HeroVid from '../../../assets/herovid.mp4'
 
 
 function Hero() {
+  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  if (isSafari){
+    return(
+    <div className='hero-container'>
+    <div className='hero-box'>
+      <span>Your Creation</span>
+      <button>Gallery</button>
+    </div>
+  </div>)
+  }
   return (
     <div className='hero-container'>
-      <video className='hero-item-1' autoPlay muted loop playsInline>
-        {/* Nested source tag specifying the video file */}
+      <video className='hero-item-1' id='vid' autoPlay muted loop playsInline>
         <source src={HeroVid} type='video/mp4' />
-        Your browser does not support the video tag.
       </video>
       <div className='hero-box'>
         <span>Your Creation</span>
