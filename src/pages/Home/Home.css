@@ -7,7 +7,7 @@
 }
 .hero-item-1{
   width: 100%;
-  max-height: 850px;
+
   object-fit:cover;
   object-position: center;
   border-radius: 5px;
@@ -18,7 +18,7 @@
 
   background-color: rgba(0, 0, 0, 0.596);
   font-size: 200px;
-  color: white;
+  color: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
   display: flex;
@@ -34,4 +34,10 @@
   border-radius: 10px;
   padding: 20px;
   border: none;
+}
+
+@media  screen and (max-width:1148px) {
+    .hero-box{
+      font-size: 100px;
+    }
 }
