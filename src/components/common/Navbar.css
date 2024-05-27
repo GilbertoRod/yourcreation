@@ -1,0 +1,27 @@
+.nav-top-wrapper{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.nav-logo{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-icons{
+ display: flex;
+ gap: 15px;
+}
+nav hr{
+  margin: 0px;
+}
+.nav-pages{
+display: flex;
+justify-content: space-evenly;
+
+
+width: 70%;
+}
+.nav-pages p{
+  margin: 0px;
+}
