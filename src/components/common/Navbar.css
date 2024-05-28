@@ -1,28 +1,50 @@
-
+.navbar{
+  min-height: 39px;
+  padding: 40px 20px 40px 20px;
+}
 .nav-top-wrapper{
-  
+  letter-spacing: 2px;
   display: flex;
+  overflow: hidden;
   justify-content: space-between;
-  padding: 15px 20px;
+  padding: 15px 20px 0px 20px;
 }
 .nav-logo{
   margin: 0px;
   padding: 0px;
+
 }
 .nav-icons{
  display: flex;
  gap: 15px;
+
+
 }
-nav hr{
-  margin: 0px;
+
+.nav-icons div{
+  cursor: pointer;
 }
+
 .nav-pages{
 display: flex;
 justify-content: space-evenly;
-
-
 width: 70%;
 }
 .nav-pages p{
   margin: 0px;
+  cursor: pointer;
+}
+.nav-pages p:hover::after{
+  content:"" ;
+  background-color: var(--primary-color);
+  display: block;
+  height: 3px;
+  width: 100%;
+  margin: 0px;
+}
+
+@media screen and (max-width:850px) {
+  .nav-pages{
+    display: none;
+  }
 }

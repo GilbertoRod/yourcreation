@@ -1,43 +1,167 @@
 .hero-container{
-
   position:relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+
 }
+
+
+
 .hero-item-1{
   width: 100%;
-
+  height: 100%;
   object-fit:cover;
   object-position: center;
   border-radius: 5px;
-}
-.hero-box{
-  position:absolute;
-  text-align: center;
+  max-height: 740px;
 
-  background-color: rgba(0, 0, 0, 0.596);
-  font-size: 200px;
-  color: rgb(255, 255, 255);
-  height: 100%;
+}
+
+.hero-box{
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items:center;
   border-radius: 5px;
   flex-direction: column;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(1, 1, 1, 0.289);
+
 
 }
-
+.hero-box span{
+  color: black;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+  letter-spacing: 3px;
+}
 .hero-box button{
+  cursor: pointer;
   font-size: 35px;
-  border-radius: 10px;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
   border: none;
+  box-shadow: inset 0 0 0 0 black;
+  color: black;
+  transition: ease-out .25s;
+  background-color: rgba(255, 255, 255, 0.775);
+  text-shadow: 0px 0px 0px rgb(0, 0, 0);
+  letter-spacing: 5px;
 }
+.hero-box button:hover{
+box-shadow: inset 250px 0px 0px 0px rgba(0, 0, 0, 0.775);
+color: white;
+background-color: transparent;
+
+}
+
 
 @media  screen and (max-width:1148px) {
     .hero-box{
-      font-size: 100px;
+      font-size: 75px;
     }
+}
+@media  screen and (max-width:650px) {
+  .hero-box{
+    font-size: 50px;
+  }
+  .hero-box button{
+    font-size: 25px;
+
+    padding: 10px;
+    border: none;
+  }
+
+}
+
+
+
+
+
+
+.popular-container{
+  letter-spacing: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+}
+.popular-container h3{
+  color: var(--primary-color);
+}
+.cards{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+@media screen and (max-width:850px) {
+
+  .cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+}
+
+
+
+
+
+
+/*  -----------ABOUT SECTION ------------*/
+
+
+
+.about-wrapper{
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(
+    0deg,
+    white 0%,
+    var(--primary-color) 25%,
+    var(--primary-color) 75%,
+    white 100%
+  );
+  padding: 0px;
+}
+
+
+.about-box{
+  background-color: rgba(0, 0, 0, 0.746);
+  color: white;
+  margin:40px;
+  padding: 40px;
+  max-width: 800px;
+  text-align: center;
+
+
+}
+.about-box h1{
+  letter-spacing: 5px;
+  padding: 20px;
+}
+.about-box p{
+  line-height: 30px;
+  padding: 20px;
+  font-size: 20px;
+}
+@media screen and (max-width:750px) {
+  .about-box{
+    padding: 1px;
+  }
+  .about-box p{
+    line-height: 30px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
 }
