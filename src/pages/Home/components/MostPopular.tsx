@@ -10,8 +10,8 @@ import '../Home.css'
 function MostPopular() {
   return (
     <div className='popular-container'>
-    <h2>MOST POPULAR</h2>
-    <h3>BROWSE OUR MOST POPULAR PRODUCTS</h3>
+    <p className="home-section-title">MOST POPULAR</p>
+    <p className="home-section-subtitle">BROWSE OUR MOST POPULAR PRODUCTS</p>
     {/* <hr style={{"width":"100%"}}/> */}
 
     <div className='cards'>
