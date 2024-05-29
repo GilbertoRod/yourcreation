@@ -1,5 +1,7 @@
 
 import'./StoreLocation.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone,faEnvelope,faLocationDot } from '@fortawesome/free-solid-svg-icons'
 function StoreLocation() {
 
   return (
@@ -14,14 +16,21 @@ function StoreLocation() {
         <div className='location-info'>
             <p className='home-section-title'>YOUR CREATION</p>
             <br/>
-            <p style={{color:'var(--primary-color)'}}>940 N Belt Line Rd #107, Irving, TX 75061</p>
+            <p style={{color:'var(--primary-color)'}}><FontAwesomeIcon icon={faLocationDot} color='black'/> 940 N Belt Line Rd #107, Irving, TX 75061</p>
             <br/>
             <p>Hours:
                 <br/>
                 Mon - Sat: 12pm-6pm
                 <br/>
                 Sunday: 12pm-5pm
+                <br/>
+                <br/>
+                <a href='tel:2148090226' rel='noreferrer'><FontAwesomeIcon icon={faPhone}/> (214) 809-0226</a>
+                <br/>
+                <br/>
+                <a href='mailto:Mtmairbrush@gmail.com' rel='noreferrer'><FontAwesomeIcon icon={faEnvelope}/> Mtmairbrush@gmail.com</a>
             </p>
+            <button className='contact-us-btn'>Contact us</button>
         </div>
 
     </div>

@@ -3,7 +3,7 @@
   font-size: 40px;
   letter-spacing: 2px;
   text-align: center;
-  color: rgb(34, 34, 34);;
+  color: rgb(34, 34, 34);
 }
 .home-section-subtitle{
   color: var(--primary-color);
@@ -119,16 +119,24 @@ background-color: transparent;
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row; 
   justify-content: center; 
   align-items: center; 
   gap: 20px;
   width: 100%;
+}
+.grid-cell{
+  width: 100%;
+height: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width:850px) {
 
   .cards{
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   gap: 20px;
 }
 }
