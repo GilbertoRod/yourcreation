@@ -1,6 +1,4 @@
-import GoogleLogo from '../../../assets/Google.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+
 import ReviewSlider from '../../../components/common/ReviewSlider'
 
 const reviews = [
@@ -49,16 +47,16 @@ function Reviews() {
   return (
     <div className='reviews-wrapper'>
         <h1 className='home-section-title'>OUR CUSTOMER REVIEWS</h1>
-        <img className='reviews-google-logo' src={GoogleLogo} alt="Google Logo"/>
+        {/* <img className='reviews-google-logo' src={GoogleLogo} alt="Google Logo"/> 
         <div className='stars'>
             <FontAwesomeIcon icon={faStar} color='gold' size='xl'/>
             <FontAwesomeIcon icon={faStar} color='gold' size='xl'/>
             <FontAwesomeIcon icon={faStar} color='gold' size='xl'/>
             <FontAwesomeIcon icon={faStar} color='gold' size='xl'/>
             <FontAwesomeIcon icon={faStar} color='gold' size='xl'/>
-        </div>
-        <div>(100+ Five Star Reviews)</div>
-
+        </div> */}
+        <div style={{color:'var(--primary-color)'}}>(100+ Five Star Reviews)</div>
+        <br/>
         <ReviewSlider reviews={reviews}/>
 
     </div>

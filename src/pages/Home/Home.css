@@ -3,6 +3,7 @@
   font-size: 30px;
   letter-spacing: 2px;
   text-align: center;
+  color: rgb(34, 34, 34);;
 }
 .home-section-subtitle{
   color: var(--primary-color);
@@ -47,7 +48,7 @@
   background-color: rgba(1, 1, 1, 0.289);
 }
 .hero-box span{
-  color: black;
+  color: rgb(34, 34, 34);
   text-shadow: 2px 2px 0px rgb(197, 195, 195);
   letter-spacing: 3px;
 }
@@ -59,7 +60,7 @@
   border: none;
   box-shadow: inset 0 0 0 0 black;
 
-  color: black;
+  color: rgb(34, 34, 34);
   transition: ease-out .25s;
   background-color: rgba(255, 255, 255, 0.775);
   text-shadow: 0px 0px 0px rgb(0, 0, 0);
@@ -103,6 +104,9 @@ background-color: transparent;
   flex-direction: column;
   align-items: center;
   padding: 40px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 0px;
 
 }
 
@@ -111,6 +115,8 @@ background-color: transparent;
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center; 
+  align-items: center; 
   gap: 50px;
   width: 100%;
 }
@@ -132,48 +138,53 @@ background-color: transparent;
 .about-wrapper{
   display: flex;
   justify-content: center;
-  background-image:linear-gradient(
-    0deg,
-    white 0%,
-    var(--primary-color) 25%,
-    var(--primary-color) 75%,
-    white 100%
-  );
-  padding: 0px;
+  
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 350px;
 }
-
 
 .about-box{
-  background-color: rgba(0, 0, 0, 0.746);
-  color: white;
-  margin:40px;
-  padding: 40px;
-  max-width: 800px;
-  text-align: center;
-  box-shadow: 0px 0px 100px white;
+  color:black;
+  margin:0px;
+  padding: 0px;
 
+
+  border-radius: 5px;
+  max-width: 1000px;
 
 }
+
 .about-box h1{
+  text-align: center;
   letter-spacing: 5px;
   padding: 20px;
-  color: var(--primary-color);
-  text-shadow: 0px 0px 7px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+
 }
+
 .about-box p{
   line-height: 30px;
-  padding: 40px;
+  padding: 0px;
   font-size: 20px;
 }
+
 @media screen and (max-width:750px) {
   .about-box{
-    padding: 10px;
+    padding: 40px;
   }
   .about-box p{
     line-height: 30px;
     padding: 15px;
     font-size: 18px;
   }
+  
+}
+@media screen and (max-width:540px) {
+  .about-wrapper{
+    height: 100%;
+  }
+
   
 }
 
@@ -192,6 +203,7 @@ background-color: transparent;
   flex-direction: column;
   align-items: center;
   padding: 40px;
+  padding-top: 0px;
   overflow: hidden;
 }
 

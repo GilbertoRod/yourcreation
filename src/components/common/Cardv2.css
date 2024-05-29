@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 .card-v2-wrapper:hover .card-v2-info{
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.904);
 }
 .card-v2-info{
     font-size: 32px;
@@ -101,7 +101,7 @@
     bottom: 50px;
     padding: 10px;
     right: 70px;
-    background-color: #ffffff86;
+    background-color: #f1efef;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -109,29 +109,20 @@
     text-align: start;
     color: black;
 
-    background-image: linear-gradient(
-        45deg,
-        hsla(0, 0%, 89%, 0.372) 0%,
-        hsl(0, 0%, 100%) 100%
-      );
+
 }
 .collection-button:hover{
     background-color: var(--primary-color);
     color: white;
     background-image: linear-gradient(
         45deg,
-        hsl(276deg 83% 72%) 0%,
-        hsl(276deg 86% 72%) 19%,
-        hsl(276deg 88% 71%) 27%,
-        hsl(276deg 91% 71%) 34%,
-        hsl(276deg 93% 70%) 41%,
-        hsl(276deg 95% 70%) 47%,
-        hsl(276deg 95% 70%) 53%,
-        hsl(276deg 93% 70%) 59%,
-        hsl(276deg 91% 71%) 66%,
-        hsl(276deg 88% 71%) 73%,
-        hsl(276deg 86% 72%) 81%,
-        hsl(276deg 83% 72%) 100%
+        hsla(278, 80%, 12%, 0.781) 0%,
+
+        var(--primary-color) 27%,
+
+        var(--primary-color) 73%,
+
+        hsla(278, 80%, 12%, 0.753) 100%
       );
 
 }

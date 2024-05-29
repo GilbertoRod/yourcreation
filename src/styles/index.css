@@ -5,14 +5,16 @@
   font-family: 'Nunito Sans';
   font-weight:600;
   margin: 0px;
-  --primary-color:#c37cf3;
+  --primary-color:#6946ca;
   /* --primary-color:#cb71e1; */
   --comp-color:#87E171;
-
+  margin: 0;
+  padding: 0px;
   
 }
 body {
   margin: 0;
+  padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

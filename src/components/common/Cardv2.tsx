@@ -11,7 +11,7 @@ function Card({image,title,desc,sub}: Props) {
 
   return (
     <div className='card-v2-wrapper'>
-        <img className="card-v2-image" src={image}/>
+        <img className="card-v2-image" alt='Company Service' src={image}/>
         <div className="card-v2-info">
             <div className='card-v2-textual'>
               <div className='card-v2-head'>{title}</div>
@@ -21,7 +21,7 @@ function Card({image,title,desc,sub}: Props) {
               
             </div>
         </div>
-        <a><button className='collection-button'>View Collection</button></a>
+        <a href='/'><button className='collection-button'>View Collection</button></a>
     </div>
   )
 }

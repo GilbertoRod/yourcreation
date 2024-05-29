@@ -1,0 +1,40 @@
+.footer-wrapper{
+  margin-top: 100px;
+  padding: 40px;
+  color: white;
+  background-color: var(--primary-color);
+  background-color:rgb(34, 34, 34);
+
+  
+}
+.footer-wrapper h1{
+ color: var(--primary-color);
+}
+
+.main-footer-content{
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 60px;
+}
+@media screen and (max-width:750px) {
+  .main-footer-content{
+    flex-direction: column;
+
+  }
+  .main-footer-content div{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.footer-socials{
+  margin-top: 12px;
+}
+
+.footer-signature{
+
+  display: flex;
+  justify-content: center;
+}
