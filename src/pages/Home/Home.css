@@ -2,6 +2,7 @@
 .home-section-title{
   font-size: 30px;
   letter-spacing: 2px;
+  text-align: center;
 }
 .home-section-subtitle{
   color: var(--primary-color);
@@ -47,7 +48,7 @@
 }
 .hero-box span{
   color: black;
-  text-shadow: 0px 0px 2px rgb(197, 195, 195);
+  text-shadow: 2px 2px 0px rgb(197, 195, 195);
   letter-spacing: 3px;
 }
 .hero-box button{
@@ -126,7 +127,6 @@ background-color: transparent;
 
 
 
-
 /*  -----------ABOUT SECTION ------------*/
 
 .about-wrapper{
@@ -192,6 +192,7 @@ background-color: transparent;
   flex-direction: column;
   align-items: center;
   padding: 40px;
+  overflow: hidden;
 }
 
 .service-cards{
@@ -225,3 +226,39 @@ background-color: transparent;
     padding: 40px 15px;
   }
 }
+
+
+
+
+
+
+
+/* ---------REVIEWS SECTION*/
+.reviews-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+  overflow: hidden;
+  
+}
+.reviews-google-logo{
+  width: 180px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.stars{
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* ---------Location Section--------------*/
+
+.location-container{
+  overflow: hidden;
+}
+
