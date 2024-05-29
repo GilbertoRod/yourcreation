@@ -19,12 +19,12 @@
 }
 @media screen and (max-width:900px) {
     .location-store-name{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     .google-map{
         margin-right: 0px;
-        margin-bottom: 40px;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width:450px) {
