@@ -31,14 +31,14 @@ export default function Navbar(){
         <div className={burgerX?'nav-pages-sidebar':'nav-pages-sidebar hide'}>
           <div><a href='/'><p>GALLERY</p></a></div>
           <div><a href='/'><p>ORDER</p></a></div>
-          <div><a href='/'><p>REVIEWS</p></a></div>
-          <div><a href='/'><p>FAQs</p></a></div>
+          <div><a href='/'><p>CONTACT</p></a></div>
+          <div><a href='/faq'><p>FAQs</p></a></div>
         </div>
         <div className='nav-pages'>
           <a href='/'><p>GALLERY</p></a>
           <a href='/'><p>ORDER</p></a>
-          <a href='/'><p>REVIEWS</p></a>
-          <a href='/'><p>FAQs</p></a>
+          <a href='/'><p>CONTACT</p></a>
+          <a href='/faq'><p>FAQs</p></a>
         </div>
         <div className='nav-icons'>
           <a href='https://www.instagram.com/your_creation/' target='_blank' rel='noreferrer'>
