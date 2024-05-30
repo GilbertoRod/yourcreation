@@ -5,6 +5,7 @@ import image2 from '../../../assets/pop_2.jpg'
 import image3 from '../../../assets/pop_3.jpg'
 import image4 from '../../../assets/pop_4.jpg'
 import image5 from '../../../assets/pop_5.jpg'
+import alt from '../../../assets/heroAlt2.jpg'
 import '../Home.css'
 
 function MostPopular() {

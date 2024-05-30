@@ -9,7 +9,9 @@ interface Props{
 function Card({image,title,sub}: Props) {
   return (
     <div className='card-wrapper'>
+        <div className='card-image-container'>
         <img className="card-image" src={image}/>
+        </div>
         <div className="card-info">
             <div className='card-title'>{title}</div>
             <div className='card-sub'>{sub}</div>
