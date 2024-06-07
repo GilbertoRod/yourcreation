@@ -20,8 +20,9 @@ function Card({image,title,desc,sub}: Props) {
               <div className='card-v2-desc'>{desc}</div>
               
             </div>
+            <a href='/'><button className='collection-button'>View {title}</button></a>
         </div>
-        <a href='/'><button className='collection-button'>View Collection</button></a>
+
     </div>
   )
 }

@@ -75,7 +75,7 @@ width: 70%;
     height: 100%;
   }
   .nav-pages-sidebar{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(17, 17, 17);;
     display: flex;
     padding-top: 100px;
     width: 70%;
@@ -145,7 +145,8 @@ width: 70%;
 
   }
   .nav-hamburger:hover .burger-line-1.x,.nav-hamburger:hover .burger-line-2.x{
-    background-color: white
+    background-color: rgb(255, 255, 255);
+
   }
   .burger-line-1.x{
     transform: rotate(45deg);

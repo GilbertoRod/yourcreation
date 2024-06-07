@@ -16,32 +16,28 @@ function MostPopular() {
     {/* <hr style={{"width":"100%"}}/> */}
 
     <div className='cards'>
-        <div className='grid-cell'>
+
         <Card image={image1} title='Air Brushed Denim Jacket' sub="From $40"/>
-        </div>
 
-        <div className='grid-cell'>
+
+
           <Card image={image2} title='Air Brushed Quinceañera' sub='From $30'/>
-        </div>
-        <div className='grid-cell'>
+
+
           <Card image={image3} title='Airbrushed Portraits' sub='From $80'/>
-        </div>
-        <div className='grid-cell'>
+
+
         <Card image={image4} title='Airbrushed Celebrity T-Shirts' sub='From $200'/>
-        </div>
-        <div className='grid-cell'>    
-          <Card image={image5} title='Air Brushed Denim Jacket' sub="From $40"/>
-        </div>
 
-        <div className='grid-cell'>
+  
+          <Card image={image5} title='Air Brushed Denim Jacket' sub="From $40"/>
+
           <Card image={image2} title='Air Brushed Quinceañera' sub='From $30'/>
-        </div>
-        <div className='grid-cell'>
+
           <Card image={image3} title='Airbrushed Portraits' sub='From $80'/>
-        </div>
-        <div className='grid-cell'>
+
           <Card image={image4} title='Airbrushed Celebrity T-Shirts' sub='From $200'/>
-        </div>
+
 
 
 
