@@ -75,6 +75,7 @@
 .card-v2-head{
     font-size: 50px;
     color: var(--comp-color);
+    text-shadow: 3px 3px 0px black;
 
 }
 .card-v2-sub{
