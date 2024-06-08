@@ -11,11 +11,12 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+
         <Router>
+        <Navbar/>
           <Routes>
-            <Route path="/" Component={Home}/>
-            <Route path="/faq" Component={Faq}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/faq' element={<Faq/>}/>
           </Routes>
         </Router>
 

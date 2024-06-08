@@ -1,62 +1,112 @@
-import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram,faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { useEffect, useState } from 'react'
+import './Navbar.css'
+import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
 
-export default function Navbar(){
 
-  const[burgerX,setBurgerX]=useState<boolean>(false);
-
-  useEffect(()=>{
-    if(burgerX){
-      document.body.style.overflow='hidden';
+function Navbar() {
+    const[showSidebar,setShowSidebar]=useState<boolean>(false);
+    const handleSidebar=()=>{
+        
+        setShowSidebar(!showSidebar);
     }
-    return(()=>{document.body.style.overflow='visible';})
-  },[burgerX])
 
-  const handleBurger=()=>{
-    setBurgerX(!burgerX)
-  }
-  return (
-    <nav className='navbar'>
-      <div className='nav-top-wrapper'>
-        <a href='/'><div className='nav-logo'>Logo</div></a>
-        {burgerX&&<div onClick={handleBurger} className='nav-close-sidebar'/>}
-        <div className='nav-hamburger' onClick={handleBurger}>
-          <div className={burgerX?'burger-line-1 x':'burger-line-1'}/>
-          <div className={burgerX?'burger-line-2 x':'burger-line-2'}/>
-        </div>
+    useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth > 1199 && showSidebar) {
+            setShowSidebar(false);
+          }
+        };
+    
+        window.addEventListener('resize', handleResize);
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, [showSidebar]);
 
 
-        <div className={burgerX?'nav-pages-sidebar':'nav-pages-sidebar hide'}>
-          <div><a href='/'><p>GALLERY</p></a></div>
-          <div><a href='/'><p>ORDER</p></a></div>
-          <div><a href='/'><p>CONTACT</p></a></div>
-          <div><a href='/faq'><p>FAQs</p></a></div>
-        </div>
-        <div className='nav-pages'>
-          <a href='/'><p>GALLERY</p></a>
-          <a href='/'><p>ORDER</p></a>
-          <a href='/'><p>CONTACT</p></a>
-          <a href='/faq'><p>FAQs</p></a>
-        </div>
-        <div className='nav-icons'>
-          <a href='https://www.instagram.com/your_creation/' target='_blank' rel='noreferrer'>
-            <div>
-              <FontAwesomeIcon icon={faInstagram} size='lg' style={{color:'#9e41b5'}}/>
+    useEffect(()=>{
+        if(showSidebar && window.innerWidth <= 1199){
+            document.body.style.overflow="hidden"; //fix this, every other click on the nav page element activates this even though the screen is big
+        }
+        else{
+            document.body.style.overflow="initial";
+        }
+    },[showSidebar])
+
+    const[showGalleryDropdown,setShowGalleryDropdown]=useState<boolean>(false);
+    const handleGalleryDropdown=()=>{
+        setShowGalleryDropdown(!showGalleryDropdown);
+    }
+    const[showOrderDropdown,setShowOrderDropdown]=useState<boolean>(false);
+    const handleOrderDropdown=()=>{
+        setShowOrderDropdown(!showOrderDropdown);
+    }
+
+    return (
+        <nav>
+            <div className={showSidebar?'blacked-out-cover':'hide-blacked-out-cover'} onClick={handleSidebar}/>
+            <Link to={'/'} className='nav-logo-wrapper'>
+                <img className='nav-logo' src={logo} alt='logo'/>
+            </Link>
+            <div className={showSidebar?"hamburger x":'hamburger'} onClick={handleSidebar}>
+                <div className='hamburger-line-1'/>
+                <div className='hamburger-line-2'/>
+                <div className='hamburger-line-3'/>
             </div>
-          </a>
+            <div className={showSidebar?'nav-items-wrapper sidebar':'nav-items-wrapper'}>
 
-          <a href='https://www.facebook.com/yourcreationair' target='_blank' rel='noreferrer'>
-            <div>
-              <FontAwesomeIcon icon={faFacebook} size='lg' style={{color:'#186afe'}}/>
+                <div className={showSidebar?'nav-sidebar-content-wrapper':"nav-items-wrapper"}>
+                    <Link to={'/'} onClick={handleSidebar} className='nav-item'>HOME</Link>
+
+
+                    <div className='dropdown-item' onClick={handleGalleryDropdown}>
+                        <div className='dropdown-title'>
+                            GALLERY
+                            <div className={showGalleryDropdown?'drop-indicator minus':'drop-indicator'}>
+                                <div className='drop-line-1'/>
+                                <div className='drop-line-2'/>
+                            </div>
+                        </div>
+                        <div className={showGalleryDropdown? 'dropdown-content sidebar':'dropdown-content'}>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>AIRBRUSH</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>DTG</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENTS</Link>
+                        </div>
+                    </div>
+
+
+
+                    <div className='dropdown-item' onClick={handleOrderDropdown}>
+                        <div className='dropdown-title'>
+                            ORDER
+                            <div className={showOrderDropdown?'drop-indicator minus':'drop-indicator'}>
+                                <div className='drop-line-1'/>
+                                <div className='drop-line-2'/>
+                            </div>
+                        </div>
+                        <div className={showOrderDropdown? 'dropdown-content sidebar':'dropdown-content'}>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>CUSTOM ORDER</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>SHIRTS</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>PANTS</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>MISC</Link>
+
+                        </div>
+                    </div>
+                    <Link to={'/'} onClick={handleSidebar} className='nav-item'>CONTACT US</Link>
+                    <Link to={'/faq'} className='nav-item'>FAQs</Link>
+
+                </div>
             </div>
-          </a>
-        </div>
-
-      </div>
 
 
-    </nav>
-  )
+
+
+
+        </nav>
+    )
 }
+
+export default Navbar

@@ -8,7 +8,7 @@
   
 }
 .footer-wrapper h1{
- color: var(--primary-color);
+  font-weight: bold;
 }
 
 .main-footer-content{

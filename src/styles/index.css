@@ -5,12 +5,16 @@
   font-family: 'Nunito Sans';
   font-weight:600;
   margin: 0px;
-  --primary-color:#ffd700;
+  --primary-color:#cc00ff;
   /* --primary-color:#6946ca; */
-  --comp-color:rgb(240, 0, 92);
+  --comp-color:rgb(32, 64, 182);
   margin: 0;
   padding: 0px;
   
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 body {
   margin: 0;

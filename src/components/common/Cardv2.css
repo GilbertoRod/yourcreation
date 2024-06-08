@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 .card-v2-wrapper:hover .card-v2-info{
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(0, 0, 0, 0.898);
 }
 .card-v2-info{
     font-size: 32px;
@@ -74,7 +74,7 @@
 
 .card-v2-head{
     font-size: 50px;
-    color: var(--comp-color);
+    color: var(--primary-color);
     text-shadow: 3px 3px 0px black;
 
 }
@@ -94,8 +94,9 @@
 }
 .card-v2-desc{
     color: var(--primary-color);
+    
     font-size: 15px;
-    text-shadow: 1px 1px 12px rgb(0, 0, 0);
+    text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.401);
     opacity: 0;
     transition: opacity 1s; 
 }

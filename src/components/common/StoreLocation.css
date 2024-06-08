@@ -35,6 +35,10 @@
 
 }
   
+.location-info a{
+    color: black;
+    text-decoration: none;
+}
 .contact-us-btn:hover{
     box-shadow: inset 250px 0px 0px 0px var(--primary-color);
   /* box-shadow: inset 250px 0px 0px 0px rgba(0, 0, 0, 0.775); */
