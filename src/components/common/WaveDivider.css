@@ -1,0 +1,23 @@
+.wave-page-divider{
+    width: 100%;
+    position: relative;
+
+
+}
+.wave-page-divider-main{
+    position: absolute;
+    top: 3px;
+    height: 100%;
+    width: 100%;
+
+
+
+
+
+}
+.wave-page-divider-cover{
+    height: 100%;
+    width: 100%;
+
+    
+}

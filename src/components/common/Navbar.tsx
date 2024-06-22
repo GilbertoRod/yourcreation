@@ -96,7 +96,7 @@ function Navbar() {
                         </div>
                     </div>
                     <Link to={'/'} onClick={handleSidebar} className='nav-item'>CONTACT US</Link>
-                    <Link to={'/faq'} className='nav-item'>FAQs</Link>
+                    <Link to={'/faq'} onClick={handleSidebar} className='nav-item'>FAQs</Link>
 
                 </div>
             </div>

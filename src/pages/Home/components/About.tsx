@@ -1,7 +1,9 @@
 import'../Home.css'
+import WaveDivider from '../../../components/common/WaveDivider'
 function About() {
   return (
     <>
+      <WaveDivider/>
       <div className='about-wrapper'>
           <div className='about-box'>
               <h1 className="home-section-title">ABOUT US</h1>
@@ -11,6 +13,8 @@ function About() {
               </p>
           </div>
       </div>
+
+
     </>
   )
 }

@@ -93,10 +93,9 @@
     opacity: 1;
 }
 .card-v2-desc{
-    color: var(--primary-color);
-    
+    color: rgb(181, 181, 181);
     font-size: 15px;
-    text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.401);
+    text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.401);
     opacity: 0;
     transition: opacity 1s; 
 }
