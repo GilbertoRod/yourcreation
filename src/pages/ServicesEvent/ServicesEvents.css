@@ -3,21 +3,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+
 
 }
 .service-events-text-container{
     max-width: 1600px;
     padding: 40px;
+    box-sizing: border-box;
 }
 .service-events-main-title{
     font-size: 4em;
     font-weight: 800;
     letter-spacing: 2px;
     text-align: center;
+
+}
+
+.service-events-text-container h2{
+    margin-top: 20px;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+
 }
 .service-event-float-img{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 260px;
+    max-height: 260px;
     width: 100%;
     margin: 10px;
     float: right;
@@ -26,23 +39,79 @@
     box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.548);
     object-fit: cover;
 }
+
 @media screen and (max-width:800px) {
     .service-events-main-title{
-        font-size: 3em;
+        font-size: 3.5em;
     }
     .service-event-float-img{
         float: initial;
         display: block;
         max-width: initial;
         max-height: 500px;
-        border-radius: 20px;
+        border-radius: 5px;
         margin: 0px;
         margin-bottom: 50px;
-        border: 3px outset black;
 
     }
 }
 .service-events-desc{
     font-size: 1.3em;
 
+}
+.service-events-desc p{
+    letter-spacing: .5px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-events-book-banner{
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    min-height: 200px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+.service-events-book-banner button{
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.061);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 0px white inset;
+    transition: ease-in .3s;
+    margin-bottom: 30px;
+}
+.service-events-book-banner button:hover{
+    box-shadow: 180px 0px 0px white inset;
+    color: black;
+}
+.service-events-book-banner h1{
+    font-size: 3em;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.service-events-book-banner p{
+    color: white;
+    margin-bottom: 10px;
 }
