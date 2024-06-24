@@ -1,9 +1,12 @@
 import Card from '../../../components/common/Card'
-import image1 from '../../../assets/pop_1.jpg'
+import denim from '../../../assets/Airbrush/airbrushdenim1.jpg'
 import image2 from '../../../assets/pop_2.jpg'
-import image3 from '../../../assets/pop_3.jpg'
 import image4 from '../../../assets/pop_4.jpg'
-import image5 from '../../../assets/pop_5.jpg'
+import events from '../../../assets/Events/events.jpg'
+import dtgFront from '../../../assets/DTG/dtg4.jpg'
+import dtgPocket from '../../../assets/DTG/dtgcorner1.jpg'
+import vinyl from '../../../assets/Vinyl/vinyl1.jpg'
+import embroidery from '../../../assets/Embroidery/Embroidery5.jpg'
 
 import '../Home.css'
 
@@ -16,31 +19,30 @@ function MostPopular() {
 
     <div className='cards'>
 
-        <Card image={image1} title='Air Brushed Denim Jacket' sub="From $40"/>
+        <Card image={events} title='Airbrush Events' sub="From $300"/>
+
+        <Card image={denim} title='Airbrushed Denim' sub="From $40"/>
 
 
 
-          <Card image={image2} title='Air Brushed Quinceañera' sub='From $30'/>
+        <Card image={image2} title='Airbrushed Quinceañera' sub='From $35'/>
 
 
-          <Card image={image3} title='Airbrushed Portraits' sub='From $80'/>
+        <Card image={image4} title='Airbrushed Exclusive Portraits' sub='From $300'/>
 
+        <Card image={dtgFront} title='Custom DTG Print T-shirt' sub='From $20'/>
 
-        <Card image={image4} title='Airbrushed Celebrity T-Shirts' sub='From $200'/>
+        <Card image={dtgPocket} title='T-Shirt Pocket Logo' sub='From $10'/>
 
-  
-          <Card image={image5} title='Air Brushed Denim Jacket' sub="From $40"/>
+        <Card image={vinyl} title='Custom Vinyl T-shirt Design' sub='From $15'/>
 
-          <Card image={image2} title='Air Brushed Quinceañera' sub='From $30'/>
-
-          <Card image={image3} title='Airbrushed Portraits' sub='From $80'/>
-
-          <Card image={image4} title='Airbrushed Celebrity T-Shirts' sub='From $200'/>
+        <Card image={embroidery} title='Barber Cape Logo Embroidery' sub='From $20'/>
 
 
 
 
     </div>
+    <button className='contact-us-btn'>See More </button>
     </div>
   )
 }

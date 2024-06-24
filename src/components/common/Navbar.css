@@ -4,7 +4,7 @@ nav{
   background-color: white;
   z-index: 1000;
   position: relative;
-  padding: 30px 20px 30px 20px;
+  padding: 20px;
 
 
 }
@@ -16,7 +16,7 @@ nav a{
 .nav-logo-wrapper{
   align-self: center;
   height: 100%;
-  width:60px;
+  width:70px;
   padding: 5px;
 }
 .nav-logo{
