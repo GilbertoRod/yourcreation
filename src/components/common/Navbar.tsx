@@ -62,7 +62,7 @@ function Navbar() {
 
                     <div className='dropdown-item' onClick={handleGalleryDropdown}>
                         <div className='dropdown-title'>
-                            GALLERY
+                            SERVICES
                             <div className={showGalleryDropdown?'drop-indicator minus':'drop-indicator'}>
                                 <div className='drop-line-1'/>
                                 <div className='drop-line-2'/>
@@ -73,7 +73,7 @@ function Navbar() {
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>DTG</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENTS</Link>
+                            <Link to={'/services/events'} onClick={handleSidebar} className='dropdown-content-item'>EVENTS</Link>
                         </div>
                     </div>
 
@@ -89,9 +89,8 @@ function Navbar() {
                         </div>
                         <div className={showOrderDropdown? 'dropdown-content sidebar':'dropdown-content'}>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>CUSTOM ORDER</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>SHIRTS</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>PANTS</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>MISC</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>GROUP ORDER</Link>
+                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENT ORDER</Link>
 
                         </div>
                     </div>
