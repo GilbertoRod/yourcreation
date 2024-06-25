@@ -124,6 +124,7 @@
     background-image: url('../../assets/Events/event2.mp4');
     background-position: center;
     background-size: cover;
+    
 
 }
 #event-video-1{
@@ -251,6 +252,7 @@
 
     .service-events-text-container{
         background-image: url('../../assets/Events/events.jpg');
+        background-attachment: fixed;
         min-height: 600px;
         height: 100%;
         background-position: center;
