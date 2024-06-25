@@ -9,6 +9,7 @@ import event4 from '../../assets/Events/event4.mp4'
 import StoreLocation from '../../components/common/StoreLocation';
 import WaveDivider from '../../components/common/WaveDivider';
 import WaveDividerLayered from '../../components/common/WaveDividerLayered';
+import { url } from 'inspector';
 
 
 function ServicesEvents() {
@@ -114,14 +115,14 @@ function ServicesEvents() {
 
                             SMU Delta Gamma Sorority Event
                         </p>
-                        <video className='recent-events-vid' controls>
+                        <video id='SMU-event-video' className='recent-events-vid' controls>
                             <source src={event4} type='video/mp4' />
                         </video>
                     </div>
 
                     <div>
                         <p>Birthday Party Event</p>
-                        <video className='recent-events-vid' controls>
+                        <video id='BP-event-video' className='recent-events-vid' controls>
                             <source src={event1} type='video/mp4' />
                         </video>
                     </div>

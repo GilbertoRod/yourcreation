@@ -237,7 +237,7 @@
 }
 
 .service-events-types div {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 1px;
     white-space: nowrap;
     color: rgb(58, 58, 58);
@@ -328,7 +328,7 @@
     }
 
     .service-events-types div{
-        font-size: 2.5em;
+        font-size: 1.8em;
         letter-spacing: 0.5px;
     }
      .event-pricing-container{
@@ -479,7 +479,16 @@
     height: 100%;
     align-self: bottom;
 }
-
+#SMU-event-video{
+    background-image: url('../../assets/Events/SMUThumbnail.png');
+    background-position: center;
+    background-size: cover;
+}
+#BP-event-video{
+    background-image: url('../../assets/Events/BPThumbnail.png');
+    background-position: center;
+    background-size: cover;
+}
 
 
 
