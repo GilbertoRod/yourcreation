@@ -5,9 +5,10 @@ interface Props{
     title:string
     desc:string
     sub:string
+    link?:string
 }
 
-function Card({image,title,desc,sub}: Props) {
+function Card({image,title,desc,sub,link}: Props) {
 
   return (
     <div className='card-v2-wrapper'>
@@ -20,7 +21,7 @@ function Card({image,title,desc,sub}: Props) {
               <div className='card-v2-desc'>{desc}</div>
               
             </div>
-            <a href='/'><button className='collection-button'>View {title}</button></a>
+            <a href={link?link:'/'}><button className='collection-button'>View {title}</button></a>
         </div>
 
     </div>

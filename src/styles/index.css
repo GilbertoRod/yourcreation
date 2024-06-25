@@ -5,7 +5,8 @@
   font-family: 'Nunito Sans';
   font-weight:600;
   margin: 0px;
-  --primary-color:#cc00ff;
+  --primary-color:#7182f1;
+  /* --primary-color:#cc00ff; */
   /* --primary-color:#6946ca; */
   --comp-color:rgb(32, 64, 182);
   margin: 0;

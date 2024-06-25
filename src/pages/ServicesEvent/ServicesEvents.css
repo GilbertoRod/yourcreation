@@ -2,15 +2,15 @@
     padding: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-sizing: border-box;
-
-
 }
 .service-events-text-container{
-    max-width: 1600px;
+
     padding: 40px;
     box-sizing: border-box;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 40px 0px;
 }
 .service-events-main-title{
     font-size: 4em;
@@ -18,14 +18,37 @@
     letter-spacing: 2px;
     text-align: center;
 
+
+}
+.service-events-sub-text{
+    font-size: 1.4em;
+    letter-spacing: 1px;
 }
 
-.service-events-text-container h2{
-    margin-top: 20px;
-    background-color: black;
+.no-further-btn{
+    margin-left: 40px;
+    background-color: #0c142f;
+    border: 1px solid #0c142f;
     display: inline-block;
     padding: 10px;
     color: white;
+    box-shadow: 0px 0px white inset;
+    transition: ease-in .35s;
+    cursor: pointer;
+    margin-top: 0px;
+
+}
+.no-further-btn:hover{
+    box-shadow: 300px 0px white inset;
+    color: #0c142f;
+}
+
+.mobile-service-event-img{
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;
+    display: none;
+    margin-top: 60px;
 
 }
 .service-event-float-img{
@@ -34,29 +57,19 @@
     width: 100%;
     margin: 10px;
     float: right;
-    border-radius: 350px;
+    border-radius: 80px;
     border: 1px solid rgb(0, 0, 0);
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
     object-fit: cover;
 }
 
-@media screen and (max-width:800px) {
-    .service-events-main-title{
-        font-size: 3.5em;
-    }
-    .service-event-float-img{
-        float: initial;
-        display: block;
-        max-width: initial;
-        max-height: 500px;
-        border-radius: 5px;
-        margin: 0px;
-        margin-bottom: 50px;
 
-    }
-}
 .service-events-desc{
     font-size: 1.3em;
+    margin-top: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+
 
 }
 .service-events-desc p{
@@ -79,9 +92,9 @@
 
 
 .service-events-book-banner{
-    background-color: rgb(17, 17, 17);
+    background-color: #0c1228;
     width: 100%;
-    min-height: 200px;
+    min-height: 500px;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -90,6 +103,30 @@
     overflow: hidden;
     box-sizing: border-box;
     text-align: center;
+    position: relative;
+    background-image: url('../../assets/Events/event2.mp4');
+    background-position: center;
+    background-size: cover;
+
+}
+#event-video-1{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.event-pricing-vid-1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.book-banner-text{
+    position: relative;
+    z-index: 2;
 }
 .service-events-book-banner button{
     padding: 10px;
@@ -107,7 +144,7 @@
     color: black;
 }
 .service-events-book-banner h1{
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
@@ -115,3 +152,201 @@
     color: white;
     margin-bottom: 10px;
 }
+.banner-contact-info{
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.service-events-types-banner {
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #05050509;
+}
+
+
+
+
+
+
+.service-events-types-banner h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+    padding: 40px 20px;
+    display: none;
+}
+
+.service-events-slide {
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.service-events-types {
+    display: flex;
+    animation: slide 20s linear infinite;
+    width: max-content;
+
+}
+.service-events-sub-text{
+
+    letter-spacing: 1px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Slide half the total width to loop the animation */
+    }
+}
+
+.service-events-types div {
+    font-size: 3em;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    color: rgb(58, 58, 58);
+    letter-spacing: 4px;
+    margin: 0px 40px;
+    transition: ease-in .15s;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .service-events-main-title, .service-events-book-banner h1{
+        font-size: 3.7em;
+        line-height: 70px;
+    }
+    
+    .mobile-service-event-img{
+        display: initial;
+        /* filter: drop-shadow(0px 2px 3px rgb(33, 33, 33)); */
+    }
+    .service-event-float-img{
+        display: none;
+
+    }
+
+    .service-events-types div{
+        font-size: 2.5em;
+        letter-spacing: 0.5px;
+    }
+    .service-events-text-container, .event-pricing-container{
+        padding:20px;
+    }
+    .service-events-desc{
+        padding:80px 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:400px){
+
+    .service-events-main-title, .service-events-book-banner h1{
+        font-size: 3.5em;
+        line-height: 50px;
+
+    }
+    .service-events-sub-text{
+        font-size: 1.7em;
+
+    }
+
+
+
+}
+
+.event-pricing-container{
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.event-pricing-title{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.event-pricing-subtitle{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+.event-pricing-factors{
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.factor-icon{
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.event-pricing-factor{
+    margin: 40px 0px;
+    max-width: 600px;
+    margin-bottom: 0px;
+}
+.event-pricing-factor h2{
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.event-pricing-factor p{
+    font-size: 1.3em;
+    letter-spacing: .5px;
+}
+
+.get-quote-container{
+    padding: 40px;
+    text-align: center;
+}
+.event-form-btn{
+    padding: 12px;
+    font-size: 1.5em;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #0c142f;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.545);
+    transition: ease-in .15s;
+    border: 1px solid var(--primary-color);
+}
+.event-form-btn:hover{
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.545);
+}
+

@@ -30,7 +30,6 @@ function StoreLocation() {
                 <br/>
                 <a href='mailto:Mtmairbrush@gmail.com' rel='noreferrer'><FontAwesomeIcon icon={faEnvelope}/> Mtmairbrush@gmail.com</a>
             </p>
-            <button className='contact-us-btn'>Contact us</button>
         </div>
 
     </div>
