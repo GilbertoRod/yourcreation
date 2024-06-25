@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import event2 from '../../assets/Events/event2.mp4'
 import StoreLocation from '../../components/common/StoreLocation';
 import WaveDivider from '../../components/common/WaveDivider';
-import WaveDivider2 from '../../components/common/WaveDivider2';
 import WaveDividerLayered from '../../components/common/WaveDividerLayered';
 
 
@@ -26,6 +25,7 @@ function ServicesEvents() {
         
         <div className='about-events-title-container'>
             <h1 className='about-events-title'>About Our Events</h1>
+            <p className='event-pricing-subtitle' style={{marginTop:"20px"}}>LEARN ABOUT OUR EVENTS</p>
         </div>
         <p className='service-events-desc'>
 
@@ -75,7 +75,7 @@ function ServicesEvents() {
         <div className='event-pricing-container'>
 
             <h1 className='event-pricing-title'>Event Pricing</h1>
-            <p className='event-pricing-subtitle'>Our pricing for events varies upon two key-factors factors</p>
+            <p className='event-pricing-subtitle'>OUR PRICING VARIES UPON TWO KEY-FACTORS</p>
             <div className='event-pricing-factors'>
                 <div className='event-pricing-factor'>
                     <div style={{display:"flex",justifyContent:"center"}}>
@@ -106,8 +106,9 @@ function ServicesEvents() {
             <h2 className='event-pricing-title'>Get A Free Quote</h2>
             <p className='event-pricing-subtitle'>Fill out our online form or visit our store location!</p>
             <button className='event-form-btn'>Event Online Form</button>
+            <StoreLocation/>
         </div>
-        <StoreLocation/>
+
 
 
 
