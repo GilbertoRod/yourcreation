@@ -6,21 +6,26 @@ import { Link } from 'react-router-dom';
 import event2 from '../../assets/Events/event2.mp4'
 import StoreLocation from '../../components/common/StoreLocation';
 import WaveDivider from '../../components/common/WaveDivider';
+import WaveDivider2 from '../../components/common/WaveDivider2';
 
 
 function ServicesEvents() {
   return (
     <div className='service-events-container'>
         <div className='service-events-text-container'>
-            <h1 className='service-events-main-title'>Airbrush Events In The Dallas-FortWorth Area</h1>
+            <h1 className='service-events-main-title'>Airbrush Events In The Dallas-Fort Worth Area</h1>
             <br/>
             <br/>
-            <h1 className='service-events-sub-text' style={{color:"var(--primary-color)"}}>Looking for a Creative Service to have at your next event?</h1>
-
+            <h1 className='service-events-sub-text'>Looking for a Creative Service to have at your next event? Look no further!</h1>
+            <Link to={'/'}><h2 className='no-further-btn'>BOOK EVENT</h2></Link>
         </div>
-        <Link to={'/'}><h2 className='no-further-btn'>Look No Further!</h2></Link>
-        <img src={event} className='mobile-service-event-img' alt="mobile airbrush event" />
-
+        <div className='web-div-event'>
+            <WaveDivider2/>
+        </div>
+        
+        <div className='about-events-title-container'>
+            <h1 className='about-events-title'>About Our Events</h1>
+        </div>
         <p className='service-events-desc'>
 
             <img src={event} alt='airbrush event' className='service-event-float-img'/>
@@ -101,7 +106,7 @@ function ServicesEvents() {
             <p className='event-pricing-subtitle'>Fill out our online form or visit our store location!</p>
             <button className='event-form-btn'>Event Online Form</button>
         </div>
-            <StoreLocation/>
+        <StoreLocation/>
 
 
 
