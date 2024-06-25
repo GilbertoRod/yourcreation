@@ -3,7 +3,9 @@ import event from '../../assets/Events/events.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBirthdayCake, faBusinessTime, faEnvelope, faListNumeric, faPeopleGroup, faPhone, faShirt, faSynagogue } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import event1 from '../../assets/Events/event1.mp4'
 import event2 from '../../assets/Events/event2.mp4'
+import event4 from '../../assets/Events/event4.mp4'
 import StoreLocation from '../../components/common/StoreLocation';
 import WaveDivider from '../../components/common/WaveDivider';
 import WaveDividerLayered from '../../components/common/WaveDividerLayered';
@@ -101,10 +103,44 @@ function ServicesEvents() {
             </div>
             
         </div>
+
+        <div className='recent-events-container'>
+            <h1 className='event-pricing-title'>Recent Events</h1>
+            <p className='event-pricing-subtitle'>OUR MOST RECENT EVENTS</p>
+            <div className='recent-events-video-grid'>
+
+                    <div>
+                        <p>        
+
+                            SMU Delta Gamma Sorority Event
+                        </p>
+                        <video className='recent-events-vid' controls>
+                            <source src={event4} type='video/mp4' />
+                        </video>
+                    </div>
+
+                    <div>
+                        <p>Birthday Party Event</p>
+                        <video className='recent-events-vid' controls>
+                            <source src={event1} type='video/mp4' />
+                        </video>
+                    </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
         <WaveDivider/>
         <div className='get-quote-container'>
             <h2 className='event-pricing-title'>Get A Free Quote</h2>
-            <p className='event-pricing-subtitle'>Fill out our online form or visit our store location!</p>
+            <p className='event-pricing-subtitle'>FILL OUT OUR ONLINE FORM OR COME AND VISIT US!</p>
             <button className='event-form-btn'>Event Online Form</button>
             <StoreLocation/>
         </div>

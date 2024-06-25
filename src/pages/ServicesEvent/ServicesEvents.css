@@ -11,7 +11,8 @@
     box-sizing: border-box;
     padding-bottom: 0px;
     text-align: center;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
+
     max-width: 1500px;
 
 }
@@ -217,7 +218,7 @@
 
 .service-events-types {
     display: flex;
-    animation: slide 20s linear infinite;
+    animation: slide 80s linear infinite;
     width: max-content;
 
 }
@@ -405,17 +406,113 @@
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 3px;
+    color: #474646;;
 }
 .event-pricing-factor p{
     font-size: 1.3em;
     letter-spacing: .5px;
 }
 
+
+
+
+
+
+.recent-events-container{
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 80px;
+}
+.recent-events-video-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 40px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    justify-items: center;
+
+}
+@media screen and (max-width:700px) {
+    .recent-events-video-grid{
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+
+}
+.recent-events-video-grid div{
+    padding: 40px 0px;
+    max-width: 400px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0px;
+}
+.recent-events-video-grid div p{
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #474646;
+    margin-bottom: 20px;
+    font-weight: 800;
+    
+}
+.recent-events-video-grid div p span{
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+
+}
+.recent-events-video-grid div p::after{
+    content: "";
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+.recent-events-vid{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    align-self: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .get-quote-container{
     padding: 20px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+
 }
 .event-form-btn{
     padding: 12px;
@@ -423,7 +520,7 @@
     margin-top: 30px;
     cursor: pointer;
     background-color: #0c142f00;
-    color: rgb(0, 0, 0);
+    color: #474646;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.545) inset;
@@ -433,5 +530,9 @@
 .event-form-btn:hover{
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.545) ;
     background-color: #fffdfd;
+}
+
+.get-quote-container .location-store-name p{
+    text-align: left;
 }
 
