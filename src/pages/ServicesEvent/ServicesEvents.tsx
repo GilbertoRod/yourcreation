@@ -7,6 +7,7 @@ import event2 from '../../assets/Events/event2.mp4'
 import StoreLocation from '../../components/common/StoreLocation';
 import WaveDivider from '../../components/common/WaveDivider';
 import WaveDivider2 from '../../components/common/WaveDivider2';
+import WaveDividerLayered from '../../components/common/WaveDividerLayered';
 
 
 function ServicesEvents() {
@@ -19,8 +20,8 @@ function ServicesEvents() {
             <h1 className='service-events-sub-text'>Looking for a Creative Service to have at your next event? Look no further!</h1>
             <Link to={'/'}><h2 className='no-further-btn'>BOOK EVENT</h2></Link>
         </div>
-        <div className='web-div-event'>
-            <WaveDivider2/>
+        <div className='layered-wave-div'>
+        <WaveDividerLayered/>
         </div>
         
         <div className='about-events-title-container'>

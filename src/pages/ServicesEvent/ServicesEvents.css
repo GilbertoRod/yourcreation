@@ -63,8 +63,9 @@
     font-size: 3.5em;
 }
 
-.web-div-event{
+.layered-wave-div{
     width: 100%;
+
 }
 .service-event-float-img{
     max-width: 380px;
@@ -239,6 +240,7 @@
     letter-spacing: 4px;
     margin: 0px 40px;
     transition: ease-in .15s;
+
 }
 
 
@@ -252,7 +254,6 @@
 
     .service-events-text-container{
         background-image: url('../../assets/Events/events.jpg');
-        background-attachment: fixed;
         min-height: 600px;
         height: 100%;
         background-position: center;
@@ -266,7 +267,7 @@
         
 
     }
-    .web-div-event{
+    .layered-wave-div{
         display: none;
     }
     .service-events-main-title{
