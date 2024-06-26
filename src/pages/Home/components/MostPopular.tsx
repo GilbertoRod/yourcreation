@@ -1,14 +1,15 @@
 import Card from '../../../components/common/Card'
-import denim from '../../../assets/Airbrush/airbrushdenim1.jpg'
-import image2 from '../../../assets/pop_2.jpg'
-import image4 from '../../../assets/pop_4.jpg'
-import events from '../../../assets/Events/event2.png'
-import dtgFront from '../../../assets/DTG/dtg4.jpg'
-import dtgPocket from '../../../assets/DTG/dtgcorner1.jpg'
-import vinyl from '../../../assets/Vinyl/vinyl1.jpg'
-import embroidery from '../../../assets/Embroidery/Embroidery5.jpg'
 
+import pop1 from '../../../assets/MostPopular/pop1.png'
+import pop2 from '../../../assets/MostPopular/pop2.png'
+import pop3 from '../../../assets/MostPopular/pop3.png'
+import pop4 from '../../../assets/MostPopular/pop4.png'
+import pop5 from '../../../assets/MostPopular/pop5.png'
+import pop6 from '../../../assets/MostPopular/pop6a.png'
+import pop7 from '../../../assets/MostPopular/pop7.png'
+import pop8 from '../../../assets/MostPopular/pop8.png'
 import '../Home.css'
+
 
 function MostPopular() {
   return (
@@ -19,24 +20,24 @@ function MostPopular() {
 
     <div className='cards'>
 
-        <Card image={events} title='Airbrush Events' sub="From $300"/>
+        <Card image={pop8} title='Airbrush Events' sub="From $300"/>
 
-        <Card image={denim} title='Airbrushed Denim' sub="From $40"/>
-
-
-
-        <Card image={image2} title='Airbrushed Quinceañera' sub='From $35'/>
+        <Card image={pop5} title='Airbrushed Denim' sub="From $40"/>
 
 
-        <Card image={image4} title='Airbrushed Exclusive Portraits' sub='From $300'/>
 
-        <Card image={dtgFront} title='Custom DTG Print T-shirt' sub='From $20'/>
+        <Card image={pop3} title='Airbrushed Shoes' sub='From $80'/>
 
-        <Card image={dtgPocket} title='T-Shirt Pocket Logo' sub='From $10'/>
 
-        <Card image={vinyl} title='Custom Vinyl T-shirt Design' sub='From $15'/>
+        <Card image={pop2} title='Airbrushed Exclusive Portraits' sub='From $300'/>
 
-        <Card image={embroidery} title='Barber Cape Logo Embroidery' sub='From $20'/>
+        <Card image={pop4} title='Custom DTG Print T-shirt' sub='From $20'/>
+
+        <Card image={pop1} title='T-Shirt Pocket Logo' sub='From $10'/>
+
+        <Card image={pop6} title='Custom Vinyl T-shirt Design' sub='From $15'/>
+
+        <Card image={pop7} title='Barber Cape Logo Embroidery' sub='From $20'/>
 
 
 
