@@ -475,20 +475,24 @@
     border-radius: 5px;
 }
 .recent-events-vid{
-    width: 100%;
+
     border-radius: 10px;
     height: 100%;
     align-self: bottom;
 }
+.event-video-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
 #SMU-event-video{
-    background-image: url('../../assets/Events/SMUThumbnail.png');
-    background-position: center;
-    background-size: cover;
+    background-color: black;
+
 }
 #BP-event-video{
-    background-image: url('../../assets/Events/BPThumbnail.png');
-    background-position: center;
-    background-size: cover;
+    background-color: black;
+
 }
 
 
