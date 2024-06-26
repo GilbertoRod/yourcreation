@@ -20,24 +20,24 @@ function MostPopular() {
 
     <div className='cards'>
 
-        <Card image={pop8} title='Airbrush Events' sub="From $300"/>
+        <Card image={pop8} title='Airbrush Events' sub="Starting From $300"/>
 
-        <Card image={pop5} title='Airbrushed Denim' sub="From $40"/>
-
-
-
-        <Card image={pop3} title='Airbrushed Shoes' sub='From $80'/>
+        <Card image={pop5} title='Airbrushed Denim' sub="Starting From $40"/>
 
 
-        <Card image={pop2} title='Airbrushed Exclusive Portraits' sub='From $300'/>
 
-        <Card image={pop4} title='Custom DTG Print T-shirt' sub='From $20'/>
+        <Card image={pop3} title='Airbrushed Shoes' sub='Starting From $80'/>
 
-        <Card image={pop1} title='T-Shirt Pocket Logo' sub='From $10'/>
 
-        <Card image={pop6} title='Custom Vinyl T-shirt Design' sub='From $15'/>
+        <Card image={pop2} title='Airbrushed Exclusive Portraits' sub='Starting From $300'/>
 
-        <Card image={pop7} title='Barber Cape Logo Embroidery' sub='From $20'/>
+        <Card image={pop4} title='Custom DTG Print T-shirt' sub='Starting From $20'/>
+
+        <Card image={pop1} title='T-Shirt Pocket Logo' sub='Starting From $10'/>
+
+        <Card image={pop6} title='Custom Vinyl T-shirt Design' sub='Starting From $15'/>
+
+        <Card image={pop7} title='Barber Cape Logo Embroidery' sub='Starting From $20'/>
 
 
 
