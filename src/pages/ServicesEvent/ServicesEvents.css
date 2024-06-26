@@ -438,7 +438,7 @@
 @media screen and (max-width:700px) {
     .recent-events-video-grid{
         grid-template-columns: 1fr;
-        overflow: hidden;
+       
     }
 
 }
