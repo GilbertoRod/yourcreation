@@ -21,7 +21,7 @@ function Cardv3({image,title,desc,sub,link}: Props) {
 
                 <h3>{sub.toUpperCase()}</h3>
                 <p>{desc}</p>
-                <p style={{color:"var(--primary-color)",textAlign:"right"}}><Link to={link}>View {title} Gallery</Link></p>
+                <p className='view-gallery-btn'><Link to={link}>View {title} Gallery</Link></p>
 
             </div>
 
