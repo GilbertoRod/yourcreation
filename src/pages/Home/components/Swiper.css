@@ -1,0 +1,31 @@
+
+/* Pagination dots */
+.swiper-pagination-bullet {
+    background-color: #000000;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+  }
+
+/* Active pagination dot */
+.swiper-pagination-bullet-active {
+background-color: var(--primary-color);
+background-color: white;
+}
+
+  /* Next button */
+.swiper-button-next {
+    color: #ffffff;
+
+  }
+/* Previous button */
+.swiper-button-prev {
+color: #ffffff;
+}
+  
+
+.swiper-button-next,
+.swiper-button-prev {
+width: 50px;
+height: 50px;
+}

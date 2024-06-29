@@ -224,11 +224,6 @@ background-color: transparent;
   gap: 40px;
   width: 100%;
 }
-.services-carousel-container{
-  width: 100%;
-  overflow: hidden;
-  
-}
 
 @media screen and (max-width:800px) {
 
