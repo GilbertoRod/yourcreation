@@ -32,7 +32,7 @@ function ServicesEvents() {
         </div>
         <p className='service-events-desc'>
 
-            <img src={event} alt='airbrush event' className='service-event-float-img'/>
+            <div><img src={event} alt='airbrush event' className='service-event-float-img'/></div>
             <p>At Your Creation, we specialize in bringing creativity to life through live airbrushing at various events. We offer guests the unique opportunity to choose custom-designed hats and/or shirts that are personalized on the spot. This interactive and engaging service ensures that each attendee leaves with a one-of-a-kind memento, reflecting their individual style and preferences. Whether you're hosting a corporate event, social gathering, bar mitzvah, or birthday party, our live airbrushing experience adds a fun and artistic element that guests will cherish long after the event is over.
             <br/>
             <br/>

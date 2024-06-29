@@ -31,7 +31,7 @@
 }
 
 .no-further-btn{
-    margin-left: 40px;
+
     background-color: rgba(255, 255, 255, 0.423);
     border: 1px solid #0c142f;
     display: inline-block;
@@ -241,7 +241,6 @@
     letter-spacing: 1px;
     white-space: nowrap;
     color: rgb(58, 58, 58);
-    letter-spacing: 4px;
     margin: 0px 40px;
     transition: ease-in .15s;
 
@@ -256,58 +255,18 @@
 
 @media screen and (max-width:800px) {
 
-    .service-events-text-container{
-        background-image: url('../../assets/Events/events.jpg');
-        min-height: 600px;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 0px;
-        padding: 70px 20px;
-        overflow: hidden;
-        
 
-    }
-    .about-events-title-container p{
-        text-align: center;
-    }
-    .layered-wave-div{
-        display: none;
-    }
-    .service-events-main-title{
-        color: white;
-        text-shadow: 4px 3px black;
-    }
+
+
     .no-further-btn{
         margin-left: 0px;
-        background-color: #7182f1;
-        border: 1px solid #1c1c1c;
-        display: inline-block;
-        padding: 10px;
-        color: white;
-        box-shadow: none;
-        transition: ease-in .15s;
-        cursor: pointer;
-        margin-top: 50px;
-        border-radius: 5px;
-
-
-    
     }
-    .no-further-btn:hover{
-        box-shadow: none;
-        background-color:#4055de ;
-        color: white;
-        
-    }
+
     .service-events-main-title, .service-events-book-banner h1{
         font-size: 3.7em;
         line-height: 70px;
     }
-    .service-events-sub-text{
+    /* .service-events-sub-text{
         color: var(--primary-color);
         font-weight: 800;
         text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -316,15 +275,31 @@
         border-radius: 10px;
         color: #dcdce0;
         letter-spacing: 1px;
-    }
+    } */
     .about-events-title-container{
         padding: 0px 20px;
         text-align: center;
     }
+    .service-events-desc div{
+        width: 100%;
+        height: 400px;
+        display: block;
 
+        margin-bottom: 50px;
+
+    }
     .service-event-float-img{
-        display: none;
+        max-width: initial;
+        max-height: initial;
+        height: 100%;
+        
+        width: 100%;
+        margin: 0px;
+        float: initial;
+        border-radius: 5px;
+        border: none;
 
+        object-fit: cover;
     }
 
     .service-events-types div{
@@ -335,7 +310,10 @@
         padding:20px;
     }
     .service-events-desc{
-        padding:80px 20px;
+        padding:40px 20px;
+    }
+    .about-events-title-container p{
+        text-align: center;
     }
 
 }
@@ -384,7 +362,7 @@
     flex-wrap: wrap;
 }
 .factor-icon{
-    background-color: var(--primary-color);
+    background-color: black;
     display: inline-block;
     font-size: 50px;
     padding: 20px;
@@ -408,6 +386,7 @@
     text-align: center;
     letter-spacing: 3px;
     color: #474646;;
+    
 }
 .event-pricing-factor p{
     font-size: 1.3em;
@@ -475,7 +454,7 @@
     border-radius: 5px;
 }
 .recent-events-vid{
-
+    width: 100%;
     border-radius: 10px;
     height: 100%;
     align-self: bottom;
@@ -488,10 +467,16 @@
 }
 #SMU-event-video{
     background-color: black;
+    background-image: url('../../assets/vid1thumbnail.png');
+    background-position: center;
+    background-size: cover;
 
 }
 #BP-event-video{
     background-color: black;
+    background-image: url('../../assets/vid2thumbnail.png');
+    background-position: center;
+    background-size: cover;
 
 }
 
