@@ -1,8 +1,4 @@
-import React from 'react'
-
-type Props = {}
-
-function faq({}: Props) {
+function faq() {
   return (
     <div>
         <h1>Frequently Asked Questions</h1>

@@ -32,6 +32,8 @@
   object-fit:cover;
   object-position: center;
   max-height: 710px;
+
+  background-image: linear-gradient(to right, #7182f1, #8392f2, #95a2f3, #a6b1f3, #b8c1f2);
 }
 
 .hero-box{
