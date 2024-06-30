@@ -217,21 +217,7 @@ background-color: transparent;
   box-sizing: border-box;
 }
 
-.service-cards{
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
-  gap: 40px;
-  width: 100%;
-}
 
-@media screen and (max-width:800px) {
-
-  .service-cards{
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-}
 
 
 @media screen and (max-width:450px) {

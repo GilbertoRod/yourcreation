@@ -7,6 +7,7 @@ import Footer from './components/common/Footer';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import ServicesEvents from './pages/ServicesEvent/ServicesEvents';
 import ScrollToTop from './components/common/ScrollToTop';
+import Services from './pages/Services/Services';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <ScrollToTop/>
           <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/services' element={<Services/>}/>
             <Route path='/services/events' element={<ServicesEvents/>}/>
             <Route path='/faq' element={<Faq/>}/>
           </Routes>

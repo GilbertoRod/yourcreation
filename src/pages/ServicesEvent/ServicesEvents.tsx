@@ -23,7 +23,7 @@ function ServicesEvents() {
             <Link to={'/'}><h2 className='no-further-btn'>BOOK EVENT</h2></Link>
         </div>
         <div className='layered-wave-div'>
-        <WaveDividerLayered/>
+            <WaveDividerLayered/>
         </div>
         
         <div className='about-events-title-container'>
@@ -32,7 +32,9 @@ function ServicesEvents() {
         </div>
         <p className='service-events-desc'>
 
-            <div><img src={event} alt='airbrush event' className='service-event-float-img'/></div>
+            <div>
+                <img src={event} alt='airbrush event' className='service-event-float-img'/>
+            </div>
             <p>At Your Creation, we specialize in bringing creativity to life through live airbrushing at various events. We offer guests the unique opportunity to choose custom-designed hats and/or shirts that are personalized on the spot. This interactive and engaging service ensures that each attendee leaves with a one-of-a-kind memento, reflecting their individual style and preferences. Whether you're hosting a corporate event, social gathering, bar mitzvah, or birthday party, our live airbrushing experience adds a fun and artistic element that guests will cherish long after the event is over.
             <br/>
             <br/>
@@ -44,6 +46,7 @@ function ServicesEvents() {
 
 
         <div className='service-events-book-banner'>
+            
             <div id='event-video-1'>
                     <video className='event-pricing-vid-1' autoPlay muted loop playsInline>
                         <source src={event2} type='video/mp4' />
@@ -55,25 +58,11 @@ function ServicesEvents() {
                 <button>BOOK NOW</button>
                 <p className='banner-contact-info'><FontAwesomeIcon icon={faPhone} color='var(--primary-color)'/> <a href='tel:2148090226' >(214) 809-0226</a></p>
                 <p className='banner-contact-info'><FontAwesomeIcon icon={faEnvelope} color='var(--primary-color)'/> <a href='mailto:mtmairbrush@gmail.com'>Mtmairbrush@gmail.com</a></p>
-            </div>
+            
+        </div>
 
         </div>
-        <div className='service-events-types-banner'>
-            <h1>Choose Us For Your Next</h1>
-            <div className='service-events-slide'>
-                <div className='service-events-types'>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faSynagogue}/> Bar Mitzvahs</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faBirthdayCake}/> Birthday Parties</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faBusinessTime}/> Corporate Events</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faPeopleGroup}/> Organizational Gatherings</div>
-
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faSynagogue}/> Bar Mitzvahs</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faBirthdayCake}/> Birthday Parties</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faBusinessTime}/> Corporate Events</div>
-                    <div><FontAwesomeIcon color='var(--primary-color)' icon={faPeopleGroup}/> Organizational Gatherings</div>
-                </div>
-            </div>
-        </div>
+        
 
         <div className='event-pricing-container'>
 
