@@ -1,0 +1,57 @@
+
+/* Pagination dots */
+.airbrush-products-slider .swiper-pagination-bullet {
+    background-color: #312f3b90;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+ 
+  }
+
+/* Active pagination dot */
+.airbrush-products-slider .swiper-pagination-bullet-active {
+background-color: rgb(228, 228, 228);
+border: 1px solid black;
+
+}
+
+  /* Next button */
+.airbrush-products-slider .swiper-button-next {
+    color: rgb(255, 255, 255);
+
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 500px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    
+  }
+  .airbrush-products-slider .swiper-button-next::after{
+    font-size: 30px;
+
+  }
+/* Previous button */
+.airbrush-products-slider .swiper-button-prev {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 500px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+}
+.airbrush-products-slider .swiper-button-prev::after{
+  font-size: 30px;
+}
+  
+
+
+@media screen and (max-width:700px) {
+  .airbrush-products-slider .swiper-button-prev::after, .airbrush-products-slider .swiper-button-next::after{
+    font-size: 15px;
+
+  } 
+  .airbrush-products-slider .swiper-button-prev,.airbrush-products-slider .swiper-button-next{
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -70,7 +70,7 @@ function Navbar() {
                         </div>
                         <div className={showGalleryDropdown? 'dropdown-content sidebar':'dropdown-content'}>
                             <Link to={'/services'} onClick={handleSidebar} className='dropdown-content-item'>ALL SERVICES</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>AIRBRUSH</Link>
+                            <Link to={'/services/airbrush'} onClick={handleSidebar} className='dropdown-content-item'>AIRBRUSH</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>DTG</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>

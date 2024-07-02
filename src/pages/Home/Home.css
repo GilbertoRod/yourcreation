@@ -32,8 +32,8 @@
   object-fit:cover;
   object-position: center;
   max-height: 710px;
-
-  background-color: var(--primary-color);
+  min-height: 475px;
+  background-color: white;
 }
 
 .hero-box{
@@ -49,7 +49,7 @@
   height: 100%;
   overflow: hidden;
   max-height: 710px;
-  background-color: rgba(1, 1, 1, 0.144);
+
   background-image: url('../../assets/herovid.mp4');
   background-position: center;
   background-size: cover;
