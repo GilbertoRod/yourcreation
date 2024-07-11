@@ -37,7 +37,7 @@ function MostPopular() {
 
         <Card image={pop6} title='Custom Vinyl T-shirt Design' sub='Starting From $15'/>
 
-        <Card image={pop7} title='Barber Cape Logo Embroidery' sub='Starting From $20'/>
+        <Card image={pop7} title='Embroidered Company Logo' sub='Starting From $20'/>
 
 
 

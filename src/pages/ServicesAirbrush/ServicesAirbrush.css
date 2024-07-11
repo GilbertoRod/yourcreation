@@ -6,6 +6,9 @@
 .airbrush-hero-container{
     position: relative;
     overflow: hidden;
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+
+
 
 
 
@@ -19,6 +22,11 @@
     object-fit: cover;
     object-position: right;
     filter: brightness(75%);
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+
+   
+
+
    
 
 }
@@ -34,6 +42,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.126);
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+
 
 }
 
@@ -82,11 +92,13 @@
 .spike-waves{
     width: 100%;
     position: absolute;
-    bottom: -10px;
+    bottom: -2px;
 
 }
 
-
+.wave{
+    width: 100%;
+}
 
 
 
@@ -100,7 +112,7 @@
 }
 .airbrush-products-content-wrapper{
     box-sizing: border-box;
-    padding: 0px 40px;
+    padding: 0px 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -118,20 +130,33 @@
 }
 
 .airbrush-products-slider{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
 }
 
 .airbrush-products-slider-title{
-    font-weight: 300;
-    letter-spacing: 2px;
     margin-bottom: 20px;
-    background-color: #11111116;
-    display: inline-block;
+    /* background-color: #11111116; */
+    display: block;
+
     padding: 5px;
     font-size: 25px;
     border-radius: 5px;
+    color: var(--primary-color);
     color: black;
+
+}
+.airbrush-products-slider-title::after{
+    content:"";
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: var(--primary-color);
 }
 @media screen and (max-width:845px) {
     .airbrush-products-slider-title{
@@ -143,7 +168,7 @@
 .products-slider-img{
     width: 100%;
 
-    max-height: 400px;
+    max-height: 300px;
     object-position: center;
     object-fit: cover;
     -khtml-user-select: none;
@@ -153,11 +178,172 @@
     user-select: none;
     border-radius: 5px;
 }
+
+
+.order-absolute-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.276);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
 .swiper-slide-flex{
     display: flex;
     justify-content: center;
+}
+.products-slider-element-container{
+
+    width: 100%;
+    text-align: center;
+}
+.product-slider-title{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.product-slider-amount{
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+.product-slider-btn{
+    padding: 5px;
+    background-color:black;
+    border: none;
+    margin-top: 10px;
+    color: white;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.spike-pencil-waves{
+    position: relative;
+    bottom: -8px;
 }
 
 
 
 
+
+
+
+
+
+/* About Airbrush*/
+.about-ab-container{
+    display: flex;
+    margin-top: 60px;
+    padding: 20px;
+    justify-content: center;
+
+
+}
+.about-ab-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.ab-svg{
+    height: 40px;
+}
+.about-ab-container h1::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.about-ab-container p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.about-l1{
+    box-sizing: border-box;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Pricing*/
+
+.ab-pricing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 20px;
+
+
+}
+.ab-pricing-title{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.pricing-desc{
+    margin-top: 20px;
+    max-width: 1000px;
+    letter-spacing: 1px;
+
+}
+.pricing-desc ol{
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.pricing-desc li{
+    margin-top: 30px;
+    letter-spacing: initial;
+}
+
+.ab-pricing-desc{
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ab-order-now-btn{
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 60px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: ease-in .2s;
+    letter-spacing: 2px;
+
+}
+.ab-order-now-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.ab-order-now-btn:active{
+    background-color: rgb(111, 120, 216)
+    
+}
+
+.extra-pricing-msg{
+    color: rgb(143, 147, 150);
+    font-weight: 400;
+}

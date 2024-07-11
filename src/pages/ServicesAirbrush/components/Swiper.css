@@ -26,6 +26,12 @@ border: 1px solid black;
     height: 40px;
     
   }
+
+
+
+
+
+
   .airbrush-products-slider .swiper-button-next::after{
     font-size: 30px;
 
@@ -39,10 +45,16 @@ border: 1px solid black;
   width: 40px;
   height: 40px;
 }
+
 .airbrush-products-slider .swiper-button-prev::after{
   font-size: 30px;
 }
   
+ .swiper-pagination-progressbar.swiper-pagination-horizontal{
+  bottom: 0;
+  top: unset;
+  
+}
 
 
 @media screen and (max-width:700px) {
@@ -51,7 +63,7 @@ border: 1px solid black;
 
   } 
   .airbrush-products-slider .swiper-button-prev,.airbrush-products-slider .swiper-button-next{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 }

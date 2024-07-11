@@ -297,12 +297,12 @@
 .factor-icon{
     background-color: rgb(63, 63, 63);
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 200px;
     color: white;
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

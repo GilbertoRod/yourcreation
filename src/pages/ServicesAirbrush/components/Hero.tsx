@@ -1,6 +1,8 @@
 import '../ServicesAirbrush.css'
 import hero from '../../../assets/Airbrush/hero.jpg'
 import waves from '../wavy.svg'
+import curve from '../../../assets/curve.svg'
+
 function AirbrushHero() {
   return (
     <div className='airbrush-hero-container'>
@@ -9,9 +11,9 @@ function AirbrushHero() {
             <h1 className='airbrush-hero-title'>CUSTOM AIRBRUSHING</h1>
             <p className='airbrush-hero-subtitle'>SHIRTS, PANTS, HATS, PORTRAITS, & MORE</p>
         </div>
-        <div className='spike-waves'>
-        <img src={waves}/>
-        </div>
+        {/* <div className='spike-waves'>
+        <img src={curve} className='wave'/>
+        </div> */}
         
     </div>
   )

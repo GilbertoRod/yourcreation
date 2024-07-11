@@ -63,7 +63,7 @@ function Services() {
             title='Airbrush'
             desc='At Your Creation, our airbrush service brings your designs to life with vibrant, custom artwork. Using high-quality airbrush techniques, we create unique and eye-catching designs on your apparel. Perfect for creating bold, personalized looks, our airbrush service ensures your clothing makes a statement.'
             sub={'Great for unique designs on t-shirts, denim, shoes, and much more!'}
-            link={'/'}
+            link={'/services/airbrush'}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -74,7 +74,7 @@ function Services() {
               'At Your Creation, our DTG printing service delivers vibrant, detailed designs directly onto your apparel. Using cutting-edge technology, we ensure your custom prints stand out with clarity and color. Perfect for any design, big or small, our DTG printing brings your vision to life on clothing with precision and quality.'
             }
             sub={'Best for detailed prints on t-shirts, sweatshirts, and other apparel.'}
-            link={'/'}
+            link={'/services/dtg'}
           />
         </SwiperSlide>
         <SwiperSlide>

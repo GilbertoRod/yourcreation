@@ -10,6 +10,7 @@ import ServicesEvents from './pages/ServicesEvent/ServicesEvents';
 import ScrollToTop from './components/common/ScrollToTop';
 import Services from './pages/Services/Services';
 import ServicesAirbrush from './pages/ServicesAirbrush/ServicesAirbrush';
+import ServicesDTG from './pages/ServicesDTG/ServicesDTG';
 
 
 
@@ -32,6 +33,7 @@ function App() {
                 <Route path='/services' element={<Services/>}/>
                 <Route path='/services/events' element={<ServicesEvents/>}/>
                 <Route path='/services/airbrush' element={<ServicesAirbrush/>}/>
+                <Route path='/services/dtg' element={<ServicesDTG/>}/>
                 <Route path='/faq' element={<Faq/>}/>
             </Routes>
           </Suspense>
