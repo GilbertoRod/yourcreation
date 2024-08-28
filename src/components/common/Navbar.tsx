@@ -72,7 +72,7 @@ function Navbar() {
                             <Link to={'/services'} onClick={handleSidebar} className='dropdown-content-item'>ALL SERVICES</Link>
                             <Link to={'/services/airbrush'} onClick={handleSidebar} className='dropdown-content-item'>AIRBRUSH</Link>
                             <Link to={'/services/dtg'} onClick={handleSidebar} className='dropdown-content-item'>DTG</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
+                            <Link to={'/services/embroidery'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>
                             <Link to={'/services/events'} onClick={handleSidebar} className='dropdown-content-item'>EVENTS</Link>
                         </div>
