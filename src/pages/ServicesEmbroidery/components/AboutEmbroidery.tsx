@@ -5,7 +5,7 @@ function AboutEmbroidery() {
         <div className="about-l1">
             <div className="about-l2">
                 <h1>What Is Embroidery?</h1>
-                <p>DTG, or Direct-to-Garment printing, is a modern printing method where digital designs are printed directly onto fabric. This process allows for high-quality, full-color prints with intricate details and a soft feel. At Your Creation, our DTG printing service ensures your custom designs stand out with vibrant colors and sharp clarity, making it perfect for any design, big or small on any item that is made of 100% cotton. Our advanced technology brings your vision to life with precision and quality, ensuring your apparel looks exactly how you imagined it.</p>
+                <p>Embroidery is a classic and elegant method of customizing apparel, where designs are stitched directly onto fabric using high-quality threads. This technique adds texture and dimension to your designs, making them stand out with a refined and professional look. At Your Creation, our embroidery service is perfect for creating durable and long-lasting designs that maintain their quality over time. Whether you’re looking to add a sophisticated logo to a polo shirt or a personalized monogram to a hat, our embroidery ensures that your design will have a premium, polished appearance on any fabric.</p>
             </div>
         </div>
         

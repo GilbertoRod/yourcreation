@@ -73,7 +73,7 @@ function Navbar() {
                             <Link to={'/services/airbrush'} onClick={handleSidebar} className='dropdown-content-item'>AIRBRUSH</Link>
                             <Link to={'/services/dtg'} onClick={handleSidebar} className='dropdown-content-item'>DTG</Link>
                             <Link to={'/services/embroidery'} onClick={handleSidebar} className='dropdown-content-item'>EMBROIDERY</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>
+                            <Link to={'/services/vinyl'} onClick={handleSidebar} className='dropdown-content-item'>VINYL</Link>
                             <Link to={'/services/events'} onClick={handleSidebar} className='dropdown-content-item'>EVENTS</Link>
                         </div>
                     </div>
@@ -89,8 +89,7 @@ function Navbar() {
                             </div>
                         </div>
                         <div className={showOrderDropdown? 'dropdown-content sidebar':'dropdown-content'}>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>CUSTOM ORDER</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>GROUP ORDER</Link>
+                            <Link to={'/custom-order'} onClick={handleSidebar} className='dropdown-content-item'>CUSTOM ORDER</Link>
                             <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENT ORDER</Link>
 
                         </div>

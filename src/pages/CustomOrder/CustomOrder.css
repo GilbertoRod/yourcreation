@@ -1,0 +1,97 @@
+
+.custom-order-text-container{
+    display: flex;
+    justify-content: center;
+}
+.custom-order-text{
+    text-align: center;
+    margin-top: 80px;
+    padding: 0px 10px;
+    max-width: 650px;
+
+}
+.custom-order-text h2{
+    letter-spacing: 2px;
+    color: gray;
+    margin: 40px 0px 20px 0px;
+}
+.custom-order-text p{
+    text-align: initial;
+    letter-spacing: 1px;
+
+}
+.custom-order-text h3{
+    text-align: initial;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    margin: 0px 7px;
+    
+}
+.form-container{
+border: 1px solid rgb(0, 0, 0);
+display: inline-block;
+padding: 50px 30px;
+border-radius: 2px;
+max-width: 600px;
+}
+.reference-field-container input{
+    background-color: rgb(234, 234, 234);
+    border: 1px solid black;
+    margin-left: 10px;
+    cursor:default;
+
+}
+.reference-field-container input:focus{
+    outline: none;
+
+}
+.reference-field-container{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+}
+.field-container{
+    margin: 20px 0px;
+    display: flex;
+}
+.text-area-title{
+    align-self:baseline;
+    
+}
+.field-title{
+    margin-right: 5px;
+    align-self:center;
+}
+.form-submit-btn{
+    padding: 7px;
+    background-color: black;
+    font-size: 1.03em;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    color: rgb(236, 236, 236);
+}
+textarea{
+    width: 100%;
+    min-height: 120px;
+    height:100%;
+    padding: 10px;
+}
+.field-container input{
+    padding: 5px;
+    width: 100%;
+}
+.more-info{
+    letter-spacing: 1px;
+}
+
+#confirm-box{
+    margin-right: 3px;
+    margin-left: 3px;
+}

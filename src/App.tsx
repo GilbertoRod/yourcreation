@@ -12,6 +12,8 @@ import Services from './pages/Services/Services';
 import ServicesAirbrush from './pages/ServicesAirbrush/ServicesAirbrush';
 import ServicesDTG from './pages/ServicesDTG/ServicesDTG';
 import ServicesEmbroidery from './pages/ServicesEmbroidery/ServicesEmboidery';
+import ServicesVinyl from './pages/ServicesVinyl/ServicesVinyl';
+import CustomOrder from './pages/CustomOrder/CustomOrder';
 
 
 
@@ -36,6 +38,8 @@ function App() {
                 <Route path='/services/airbrush' element={<ServicesAirbrush/>}/>
                 <Route path='/services/dtg' element={<ServicesDTG/>}/>
                 <Route path='/services/embroidery' element={<ServicesEmbroidery/>}/>
+                <Route path='/services/vinyl' element = {<ServicesVinyl/>}/>
+                <Route path='/custom-order' element = {<CustomOrder/>}/>
                 <Route path='/faq' element={<Faq/>}/>
             </Routes>
           </Suspense>

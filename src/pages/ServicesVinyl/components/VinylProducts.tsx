@@ -1,22 +1,24 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation,Autoplay } from 'swiper/modules';
-import emb1 from '../../../assets/Embroidery/Embroidery1.jpg'
-import emb2 from '../../../assets/Embroidery/Embroidery2.jpg'
-import emb3 from '../../../assets/Embroidery/Embroidery3.jpg'
-import emb4 from '../../../assets/Embroidery/Embroidery4.jpg'
-import emb5 from '../../../assets/Embroidery/Embroidery5.jpg'
-import emb6 from '../../../assets/Embroidery/Embroidery6.jpg'
-import emb7 from '../../../assets/Embroidery/Embroidery7.jpg'
-import emb8 from '../../../assets/Embroidery/Embroidery8.jpg'
-import emb9 from '../../../assets/Embroidery/Embroidery9.jpg'
-import emb10 from '../../../assets/Embroidery/Embroidery10.jpg'
+import vin1 from '../../../assets/Vinyl/vinyl1.jpg'
+import vin2 from '../../../assets/Vinyl/vinyl2.jpg'
+import vin3 from '../../../assets/Vinyl/vinyl3.jpg'
+import vin4 from '../../../assets/Vinyl/vinyl4.jpg'
+import vin5 from '../../../assets/Vinyl/vinyl5.jpg'
+import vin7 from '../../../assets/Vinyl/vinyl7.jpg'
+import vin8 from '../../../assets/Vinyl/vinyl8.jpg'
+import vin9 from '../../../assets/Vinyl/vinyl9.jpg'
+import vin10 from '../../../assets/Vinyl/vinyl10.jpg'
+import vin11 from '../../../assets/Vinyl/vinyl11.jpg'
 
 
 
 
 
 
-function DTGProducts() {
+
+
+function VinylProducts() {
   return (
     <div className='airbrush-products-container'>
 
@@ -27,16 +29,16 @@ function DTGProducts() {
                 <h1 className='airbrush-products-slider-title'>OUR PREVIOUS WORK</h1>
                 <AirbrushSlide slides={
                   [
-                    {title:"Embroidered Barbershop logo on shirt",price:8,image:emb1},
-                    {title:"Embroidered Name on Pillow Case",price:10,image:emb2},
-                    {title:"Embroidered name and Logo on shirt",price:15,image:emb3},
-                    {title:"Front Vintage DTG Design",price:12,image:emb4},
-                    {title:"Big Embroidered Barbershop logo on Barber Cape",price:10,image:emb5},
-                    {title:"Small Embroidered Barbershop logo on Barber Cape",price:5,image:emb6},
-                    {title:"Embroidered Initials on Grauation Stole",price:5,image:emb7},
-                    {title:"Embroidered Corner School Logo",price:8,image:emb8},
-                    {title:"Large embroidered text on Shirt",price:12,image:emb9},
-                    {title:"Embroidered name on front of t-shirt",price:5,image:emb10},
+                    {title:"Front T-Shirt Large  Vinyl Pink & Silver Glitter Design",price:18,image:vin1},
+                    {title:"Front T-Shirt Large Vinyl Red & Silver Glitter Design",price:18,image:vin2},
+                    {title:"Front T-Shirt Large Vinyl three Color Design",price:15,image:vin3},
+                    {title:"Front T-Shirt Vinyl Large Text Design",price:15,image:vin4},
+                    {title:"Large two colored Glitter Vinyl & Outline",price:18,image:vin5},
+                    {title:"Back Jersey with two colored Glitter Vinyl & Outline",price:18,image:vin7},
+                    {title:"Large Vinyl Logo with text on T-shirt",price:15,image:vin8},
+                    {title:"Large Vinyl Logo on T-shirt",price:15,image:vin9},
+                    {title:"Front Jersey With Vinyl",price:10,image:vin10},
+                    {title:"Back Jersey with Vinyl",price:10,image:vin11},
 
                   
                   
@@ -50,7 +52,7 @@ function DTGProducts() {
   )
 }
 
-export default DTGProducts
+export default VinylProducts
 
 
 type Props={

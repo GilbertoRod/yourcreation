@@ -132,7 +132,7 @@ function AirbrushSlide({slides}: Props) {
             {slide.images?<img className='products-slider-img' alt='denim' src={slide.images[0]}/>:<img className='products-slider-img' alt='denim' src={slide.image}/>}
             <p className='product-slider-title'>{slide.title.toUpperCase()}</p>
             <p className='product-slider-amount'>From &#36;{slide.price} & up</p>
-            <button className='product-slider-btn'>ORDER SIMILAR</button>
+            {/* <button className='product-slider-btn'>ORDER SIMILAR</button> */}
           </div>
   
           
