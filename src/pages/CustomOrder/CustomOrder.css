@@ -6,7 +6,7 @@
 .custom-order-text{
     text-align: center;
     margin-top: 80px;
-    padding: 0px 10px;
+    padding: 0px 20px;
     max-width: 650px;
 
 }
@@ -25,7 +25,6 @@
     letter-spacing: 2px;
     font-weight: bold;
 }
-
 .form-wrapper{
     display: flex;
     justify-content: center;

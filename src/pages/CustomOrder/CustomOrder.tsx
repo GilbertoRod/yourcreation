@@ -60,8 +60,22 @@ function CustomOrder() {
         <div className="custom-order-text">
             <h1>GET A CUSTOM ORDER QUOTE!</h1>
             <h2>HOW IT WORKS</h2>
+            <br/>
             <h3>CONTACT</h3>
-            <p>Once you fill out the form below, we will contact you with the phone number that you provided in your entry to discuss your order. if you have any more questions, please feel free to contact us via email <a href="mailto:mtmairbrush@gmail.com">mtmairbrush@gmail.com</a> or phone #<a href="tel:2148090226">(214)809-0226</a></p>
+            <p>Once you fill out the form below, we will contact you with the phone number that you will provide in your entry to discuss your order. If you have any more questions, please feel free to contact us via email <a href="mailto:mtmairbrush@gmail.com">mtmairbrush@gmail.com</a> or <a href="tel:2148090226">(214)809-0226</a></p>
+            <br/>
+            <br/>
+            <h3>PRODUCTS</h3>
+            <p>We are able to provide black and white t-shirts and onesies for an upcharge of $5 per product. If you decide to provide your own product, we recommend you contact the store before bringing it in. Some of our services only allow for specific products to be used on them. 
+            <br/>
+            <br/>
+            DTG - Our DTG Printers are best capable of printing on 100% Cotton materials. If you decide on bringing your own product for this service, please make sure it's made out of 100% cotton.
+            <br/>
+            <br/>
+            Airbrush - We are able to airbrush on almost any type of product (helmets, shirts, shoes, &amp; more). Feel free to call if you have a special product that you want to get airbrushed.
+            
+            </p>
+            
         </div>
         </div>
         <div className="form-wrapper">

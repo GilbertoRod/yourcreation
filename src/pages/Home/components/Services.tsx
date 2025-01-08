@@ -9,10 +9,10 @@ import 'react-multi-carousel/lib/styles.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay'
+import 'swiper/css/autoplay';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination, Navigation,Autoplay } from 'swiper/modules';
-import './Swiper.css'
+import './Swiper.css';
 
 
 function Services() {
