@@ -136,7 +136,7 @@ function ServicesEvents() {
             <h2 className='event-pricing-title'>Get A Free Quote</h2>
             <p className='event-pricing-subtitle'>FILL OUT OUR ONLINE FORM OR COME AND VISIT US!</p>
             <button className='event-form-btn'>Event Online Form</button>
-            <StoreLocation/>
+            {/* <StoreLocation/> */}
         </div>
 
 

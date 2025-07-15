@@ -14,7 +14,7 @@ function ServicesEmbroidery({}: Props) {
         <AboutEmbroidery/>
         <DTGProducts/>
         <DTGPricing/>
-        <StoreLocation/>
+        {/* <StoreLocation/> */}
     </div>
   )
 }

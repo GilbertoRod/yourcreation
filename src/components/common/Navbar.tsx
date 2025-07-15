@@ -90,12 +90,12 @@ function Navbar() {
                         </div>
                         <div className={showOrderDropdown? 'dropdown-content sidebar':'dropdown-content'}>
                             <Link to={'/custom-order'} onClick={handleSidebar} className='dropdown-content-item'>CUSTOM ORDER</Link>
-                            <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENT ORDER</Link>
+                            {/* <Link to={'/'} onClick={handleSidebar} className='dropdown-content-item'>EVENT ORDER</Link> */}
 
                         </div>
                     </div>
-                    <Link to={'/'} onClick={handleSidebar} className='nav-item'>CONTACT US</Link>
-                    <Link to={'/faq'} onClick={handleSidebar} className='nav-item'>FAQs</Link>
+                    {/* <Link to={'/'} onClick={handleSidebar} className='nav-item'>CONTACT US</Link> */}
+                    {/* <Link to={'/faq'} onClick={handleSidebar} className='nav-item'>FAQs</Link> */}
 
                 </div>
             </div>

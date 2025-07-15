@@ -13,7 +13,7 @@ function ServicesVinyl() {
     <AboutVinyl/>
     <VinylProducts/>
     <VinylPricing/>
-    <StoreLocation/>
+    {/* <StoreLocation/> */}
     </>
   )
 }

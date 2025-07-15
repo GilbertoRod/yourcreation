@@ -15,7 +15,7 @@ function ServicesAirbrush() {
         <AboutAirbrush/>
         <AirbrushProducts/>
         <Pricing/>
-        <StoreLocation/>
+        {/* <StoreLocation/> */}
         
     </div>
     {/* <img className="spike-pencil-waves" src={pencildiv}/> */}

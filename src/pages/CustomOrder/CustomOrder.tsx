@@ -62,7 +62,7 @@ function CustomOrder() {
             <h2>HOW IT WORKS</h2>
             <br/>
             <h3>CONTACT</h3>
-            <p>Once you fill out the form below, we will contact you with the phone number that you will provide in your entry to discuss your order. If you have any more questions, please feel free to contact us via email <a href="mailto:mtmairbrush@gmail.com">mtmairbrush@gmail.com</a> or <a href="tel:2148090226">(214)809-0226</a></p>
+            <p>We are currently taking orders over the phone or in-person meet-ups. You can call or text our store number to place an order and we will contact you back with an estimate. If you have any more questions, please feel free to contact us via email <a href="mailto:mtmairbrush@gmail.com">mtmairbrush@gmail.com</a> or <a href="tel:2148090226">(214)809-0226</a></p>
             <br/>
             <br/>
             <h3>PRODUCTS</h3>
@@ -78,6 +78,13 @@ function CustomOrder() {
             
         </div>
         </div>
+
+
+
+
+
+
+        
         <div className="form-wrapper">
 
             <form className="form-container">

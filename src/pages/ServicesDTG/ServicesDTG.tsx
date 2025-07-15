@@ -15,7 +15,7 @@ function ServicesDTG({}: Props) {
         <AboutDTG/>
         <DTGProducts/>
         <DTGPricing/>
-        <StoreLocation/>
+        {/* <StoreLocation/> */}
     </div>
   )
 }

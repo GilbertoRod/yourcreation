@@ -16,10 +16,18 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h1>CONTACT US</h1>
+          <h1>YOUR CREATION</h1>
+          {/* <p>
+                Mon - Sat: 12pm-6pm
+                <br/>
+                Sunday: 12pm-5pm
+                <br/>
+          </p> */}
+          <br/>
           <p>Call or Text (214) 809-0226</p>
+
           <p>Mtmairbrush@gmail.com</p>
-          <p>940 N Belt Line Rd #107, Irving, TX 75061</p>
+          <p></p>
           <div className='footer-socials'>
             <a href='https://www.instagram.com/your_creation/' style={{marginRight:'12px'}} target='_blank' rel='noreferrer'>
                 <FontAwesomeIcon icon={faInstagram} size='lg' style={{color:'var(--primary-color)'}}/>
